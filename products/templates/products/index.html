@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banya Store — Всё для бани</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-yellow-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-green-700 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Banya Store</h1>
+      <nav class="space-x-4">
+        <a href="#catalog" class="hover:underline">Каталог</a>
+        <a href="#about" class="hover:underline">О нас</a>
+        <a href="#contacts" class="hover:underline">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-green-100 py-16 text-center">
+    <h2 class="text-4xl font-semibold mb-4">Добро пожаловать в мир бани</h2>
+    <p class="text-lg">Натуральные веники, масла и аксессуары для настоящего отдыха</p>
+  </section>
+
+  <!-- Categories -->
+  <section id="catalog" class="py-10">
+    <div class="container mx-auto">
+      <h3 class="text-2xl font-semibold mb-6 text-center">Категории товаров</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="https://via.placeholder.com/100" alt="Веники" class="mx-auto mb-2">
+          <h4 class="font-semibold">Веники</h4>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="https://via.placeholder.com/100" alt="Шапки" class="mx-auto mb-2">
+          <h4 class="font-semibold">Аксессуары</h4>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="https://via.placeholder.com/100" alt="Масла" class="mx-auto mb-2">
+          <h4 class="font-semibold">Аромамасла</h4>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <img src="https://via.placeholder.com/100" alt="Наборы" class="mx-auto mb-2">
+          <h4 class="font-semibold">Подарочные наборы</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contacts" class="bg-green-700 text-white py-6 mt-10">
+    <div class="container mx-auto text-center">
+      <p>Связь: info@banyastore.ru | Тел: +7 (999) 123-45-67</p>
+      <p>&copy; 2025 Banya Store — Все права защищены</p>
+    </div>
+  </footer>
+</body>
+</html>
